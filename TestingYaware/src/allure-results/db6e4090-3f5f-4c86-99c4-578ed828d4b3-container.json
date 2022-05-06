@@ -1,0 +1,1 @@
+{"uuid":"db6e4090-3f5f-4c86-99c4-578ed828d4b3","name":"Yaware Tests","children":["9f32e9de-57ee-419a-a948-631ec535eaf8"],"befores":[],"afters":[{"name":"close","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1651845402882,"stop":1651845403647}],"start":1651845396457,"stop":1651845403647}

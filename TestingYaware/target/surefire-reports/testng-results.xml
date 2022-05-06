@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-07T02:28:32 EEST" name="Yaware Tests" finished-at="2022-05-07T02:29:09 EEST" duration-ms="36455">
+    <groups>
+    </groups>
+    <test started-at="2022-05-07T02:28:32 EEST" name="D:\work\TestingYaware" finished-at="2022-05-07T02:29:09 EEST" duration-ms="36455">
+      <class name="tests.addemployee.YawareAddEmployeeTest">
+        <test-method is-config="true" signature="YawareImportTest()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:28:32 EEST" name="YawareImportTest" finished-at="2022-05-07T02:28:50 EEST" duration-ms="18073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YawareImportTest -->
+        <test-method signature="YawareImportDelete()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:28:51 EEST" name="YawareImportDelete" finished-at="2022-05-07T02:28:55 EEST" duration-ms="4900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YawareImportDelete -->
+        <test-method signature="YawareImportLinux()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:28:56 EEST" name="YawareImportLinux" finished-at="2022-05-07T02:28:59 EEST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YawareImportLinux -->
+        <test-method signature="YawareImportMacos()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:28:59 EEST" name="YawareImportMacos" finished-at="2022-05-07T02:29:01 EEST" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YawareImportMacos -->
+        <test-method signature="YawareImportResend()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:29:01 EEST" name="YawareImportResend" finished-at="2022-05-07T02:29:06 EEST" duration-ms="4832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YawareImportResend -->
+        <test-method signature="YawareImportWindows()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:29:06 EEST" name="YawareImportWindows" finished-at="2022-05-07T02:29:09 EEST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YawareImportWindows -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:29:09 EEST" name="clearCookiesAndLocalStorage" finished-at="2022-05-07T02:29:09 EEST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.addemployee.YawareAddEmployeeTest@75e0a54c]" started-at="2022-05-07T02:29:09 EEST" name="close" finished-at="2022-05-07T02:29:10 EEST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.addemployee.YawareAddEmployeeTest -->
+    </test> <!-- D:\work\TestingYaware -->
+  </suite> <!-- Yaware Tests -->
+</testng-results>
