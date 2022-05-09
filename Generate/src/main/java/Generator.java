@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Generator {
 
-    private static final String CSV_FILE = "employees.csv";
+    private static final String CSV_FILE = "..//TestingYaware//employees.csv";
 
     public static void main(String[] args) throws IOException {
         try (

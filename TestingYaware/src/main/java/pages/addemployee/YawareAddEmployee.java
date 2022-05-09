@@ -30,7 +30,6 @@ public class YawareAddEmployee extends BasePage {
     private final By totalCount = By.id("tbtext-1027");
     private final By invitationDate = By.id("//tbody[@id='gridview-1034-body']/tr[1]/td[3]/div/span");
 
-
     String beforeCount;
 
 
@@ -106,22 +105,25 @@ public class YawareAddEmployee extends BasePage {
     }
 
     public YawareAddEmployee resendInvitation() {
+        //String beforeDate =  waitElementIsVisible(driver.findElement(invitationDate)).getText();
 
-        //String beforeDate =  driver.findElement(invitationDate).getText();
+        //try {
+        //    Thread.sleep(60000);
+        //} catch(InterruptedException ex) {}
 
         driver.findElement(resend).click();
 
-        refresh();
+        //refresh();
 
-        //String afterDate =  driver.findElement(invitationDate).getText();
-
+        //String afterDate =  waitElementIsVisible(driver.findElement(invitationDate)).getText();
         //Assert.assertNotEquals(beforeDate, afterDate, "The invitation date should be updated");
 
         return this;
     }
 
     public YawareAddEmployee deleteInvitation() {
-        beforeCount = driver.findElement(totalCount).getText();
+
+        beforeCount = waitElementIsVisible(driver.findElement(totalCount)).getText();
 
         driver.findElement(delete).click();
 
@@ -130,7 +132,7 @@ public class YawareAddEmployee extends BasePage {
 
     public YawareAddEmployee itemIsDeleted() {
 
-        String afterCount = driver.findElement(totalCount).getText();
+        String afterCount = waitElementIsVisible(driver.findElement(totalCount)).getText();
 
         Assert.assertNotEquals(beforeCount, afterCount, "Item should be deleted from the list");
 

@@ -22,19 +22,19 @@ public class BaseTest {
     protected YawareAddEmployee yawareAddEmployee = new YawareAddEmployee(driver);
     protected ModalFileChoose modalFileChoose = new ModalFileChoose(driver);
 
-    @AfterTest
-    public void clearCookiesAndLocalStorage() {
-        if (CLEAR_COOKIES_AND_STORAGE) {
-            JavascriptExecutor javascriptExecutor= (JavascriptExecutor) driver;
-            driver.manage().deleteAllCookies();
-            javascriptExecutor.executeScript("window.sessionStorage.clear()");
-        }
-    }
+//    @AfterTest
+//    public void clearCookiesAndLocalStorage() {
+//        if (CLEAR_COOKIES_AND_STORAGE) {
+//            JavascriptExecutor javascriptExecutor= (JavascriptExecutor) driver;
+//            driver.manage().deleteAllCookies();
+//            javascriptExecutor.executeScript("window.sessionStorage.clear()");
+//        }
+//    }
 
     @AfterSuite (alwaysRun = true)
     public void close() {
         if (HOLD_BROWSERS_OPEN) {
-            driver.quit();
+            //driver.quit();
         }
     }
 }

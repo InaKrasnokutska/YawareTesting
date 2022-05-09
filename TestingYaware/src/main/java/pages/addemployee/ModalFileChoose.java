@@ -17,7 +17,7 @@ public class ModalFileChoose extends BasePage {
     private final By inviteCheckbox = By.className("import-users-notifying-label");
 
     public ModalFileChoose modalFileChooseSendKeys() {
-        driver.findElement(selectFileInput).sendKeys("D:\\work\\TestingSeleniumTestNGMaven\\Generate\\employees.csv");
+        driver.findElement(selectFileInput).sendKeys(System.getProperty("user.dir") + "//employees.csv");
         return this;
     }
 
